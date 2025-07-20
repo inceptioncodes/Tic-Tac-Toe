@@ -14,8 +14,7 @@ h1{
 } 
 
 .end{
-    position: absolute;
-    left: 86.5vmin;
+     margin: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #053939;
     gap: 0.1rem;
