@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #84A98C;
+    text-align: center;
+}
+
+h1{
+    color: #053939;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.end{
+    position: absolute;
+    left: 86.5vmin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #053939;
+    gap: 0.1rem;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    background-color: #CAD2C5;
+    font-size: 10vmin;
+    color: #31633C;
+}
+
+/* Reset button styling */
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    border: none;
+    background-color: #CAD2C5;
+    color: #053939;
+}
+
+/* Message container section */
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#newgame{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1rem;
+    border: none;
+    background-color: #CAD2C5;
+    color: #053939;
+}
+
+/* hidden section */
+
+.hide{
+    display: none;
+}
