@@ -24,6 +24,7 @@ const enableBoxes = () =>{
     for(let box of boxes){
         box.disabled = false;
         box.innerText = "";
+        box.style.color= "#31633C";
     }
 }
 
